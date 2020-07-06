@@ -1,0 +1,105 @@
+#Body-days {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25vw;
+  padding: 0;
+  margin: 0;
+}
+
+#Body-days .Body-number-days {
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+#Body-days .Body-number-days h1 {
+  background: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#Body-days #Body-details-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30vw;
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.25));
+  -webkit-box-shadow: 6px 2px 6px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 6px 2px 6px 0 rgba(0, 0, 0, 0.15);
+  overflow: scroll;
+  margin: 10px;
+  width: 50px;
+  -ms-overflow-style: none;
+}
+
+#Body-days #Body-details-parent #Body-details-days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  padding: 0;
+  width: 20px;
+  margin: 15vw 0;
+  cursor: pointer;
+}
+
+#Body-days #Body-details-parent #Body-details-days .Body-details-day {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Body-days #Body-details-parent::-webkit-scrollbar {
+  display: none;
+}
+
+#Body-days div .scroll {
+  width: 50px;
+}
+
+.Scroll-active {
+  cursor: -webkit-grabbing !important;
+  cursor: grabbing !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.Scroll-inactive {
+  cursor: pointer !important;
+}
+/*# sourceMappingURL=Scrolldrag.css.map */

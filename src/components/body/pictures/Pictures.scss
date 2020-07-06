@@ -1,0 +1,99 @@
+@import '../styles/styles.scss';
+
+.Body-pic {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    .prevPicBtn {
+        display: flex;
+        margin: 1vw;
+    }
+    .Pic-div {
+        position: relative;
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        .border1 {
+            position: absolute;
+            top: 0;
+            left: 0; 
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 100%;
+            max-width: 400px;
+            height: 100%;
+            background: $themeGrad;
+            z-index: -1;
+        }
+        img {
+            width: 97%;
+            max-width: 388px;
+            height: 97%;
+            margin: auto;
+            cursor: pointer;
+        }
+        .Pic-info {
+            position: absolute;
+            top: 6px;
+            left: 0; 
+            right: 0; 
+            margin-left: auto; 
+            margin-right: auto;
+            width: 97%;
+            max-width: 388px;
+            color: rgb(255,255,255);
+            background: rgb(0, 0, 0);
+            opacity: 0.5;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    .nextPicBtn {
+        display: flex;
+        margin: 1vw;
+    }
+}
+
+.convex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: $convexColor;
+    box-shadow: $convexShadow;
+    border-radius: 50px;
+    border: none;
+    outline:none;
+    margin: auto;
+}
+
+.concave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: $concavColor;
+    box-shadow: $concavShadow;
+    border-radius: 50px;
+    border: none;
+    outline:none;
+    margin: auto;
+}
+
+.arrow {
+    margin: auto;
+    opacity: 0.5;
+    width: 20px;
+    height: 20px;
+}
+
+.arrowleft {
+    margin: auto;
+    transform: rotate(180deg);
+    opacity: 0.5;
+    width: 20px;
+    height: 20px;
+}

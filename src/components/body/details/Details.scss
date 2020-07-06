@@ -1,0 +1,13 @@
+@import '../styles/styles.scss';
+
+.Body-details-intro {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 50vw;
+    .Body-details-intro-div p span {
+        background: $themeGrad;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

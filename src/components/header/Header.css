@@ -1,0 +1,93 @@
+.Header-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Header-a .App-div {
+  margin-left: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Header-a .App-div a {
+  margin: auto;
+}
+
+.Header-a .App-div a .App-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 120px;
+}
+
+.Header-a .App-div-nav {
+  margin-right: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Header-a .App-div-nav .Header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.Header-a .App-div-nav .Header-nav li {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.Header-a .App-div-nav .Header-nav .navi {
+  position: relative;
+}
+
+.Header-a .App-div-nav .Header-nav .under {
+  -webkit-animation: expand 1s;
+          animation: expand 1s;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background-position: 0 1rem;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+@-webkit-keyframes expand {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes expand {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .Header-a {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

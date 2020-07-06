@@ -1,0 +1,17 @@
+.footer-div p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.footer-div p a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 567px) {
+  .footer-div {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

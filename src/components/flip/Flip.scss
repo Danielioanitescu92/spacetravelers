@@ -1,0 +1,17 @@
+.flipIt {
+    display: none;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    .flipItPicDiv img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .flipIt {
+        display: flex !important;
+    }
+}

@@ -1,0 +1,72 @@
+.Body-details {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  list-style-type: none;
+  left: 5vw;
+  padding: 0;
+  width: 15vw;
+  height: 30vw;
+  max-height: 400px;
+  margin-right: 10vw;
+}
+
+.Body-details .dots {
+  position: absolute;
+  width: 3px;
+  height: inherit;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, black), to(white));
+  background: linear-gradient(to bottom, white 0%, black 50%, white 100%);
+  opacity: 0.1;
+}
+
+.Body-details li {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-right: -8px;
+}
+
+.Body-details li .btnSm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  -webkit-box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  margin-left: 5vw;
+  z-index: 2;
+}
+
+.Body-details li .btnSm .add {
+  margin: auto;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+}
+/*# sourceMappingURL=Selectibles.css.map */

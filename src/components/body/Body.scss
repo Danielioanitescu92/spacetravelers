@@ -1,0 +1,33 @@
+.Body-all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .Body-main {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 567px) {
+  .Body-all {
+    display: none !important;
+  }
+}

@@ -1,0 +1,131 @@
+.Body-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50vw;
+}
+
+.Body-pic .prevPicBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1vw;
+}
+
+.Body-pic .Pic-div {
+  position: relative;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Body-pic .Pic-div .border1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  background: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  z-index: -1;
+}
+
+.Body-pic .Pic-div img {
+  width: 97%;
+  max-width: 388px;
+  height: 97%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.Body-pic .Pic-div .Pic-info {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 97%;
+  max-width: 388px;
+  color: white;
+  background: black;
+  opacity: 0.5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Body-pic .nextPicBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1vw;
+}
+
+.convex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.25));
+  -webkit-box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin: auto;
+}
+
+.concave {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.25));
+  -webkit-box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin: auto;
+}
+
+.arrow {
+  margin: auto;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+}
+
+.arrowleft {
+  margin: auto;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=Pictures.css.map */

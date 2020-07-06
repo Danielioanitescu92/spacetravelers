@@ -1,0 +1,55 @@
+@import '../body/styles/styles.scss';
+
+.Header-a {
+    display: flex;
+    justify-content: space-between;
+    .App-div {
+        margin-left: 5vw;
+        display: flex;
+        align-items: center;
+        a {
+            margin: auto;
+            .App-img {
+                display: flex;
+                align-items: center;
+                width: 120px;
+            }
+        }
+    }
+    .App-div-nav {
+        margin-right: 5vw;
+        display: flex;
+        align-items: center;
+        .Header-nav {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            li {
+                cursor: pointer;
+                margin: 10px
+            }
+            .navi {
+                position: relative;
+            }
+            .under {
+                animation: expand 1s;
+                background-image: $themeGrad;
+                background-position: 0 1rem;
+                background-repeat: no-repeat;
+                background-size: inherit;
+            
+            }
+        }
+    }
+}
+
+@keyframes expand {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+@media screen and (max-width: 567px) {
+  .Header-a {
+    display: none !important;
+  }
+}

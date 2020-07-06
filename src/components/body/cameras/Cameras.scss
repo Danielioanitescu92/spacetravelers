@@ -1,0 +1,19 @@
+.Body-details-cameras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    div {
+        .cam-ul {
+            list-style-type: none;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            padding: 0;
+            .cam {
+                margin: auto;
+                margin: 1vw;
+            }
+        }
+    }
+}
