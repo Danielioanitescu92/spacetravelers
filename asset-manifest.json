@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/spacetravelers/static/css/main.f5f9daef.chunk.css",
+    "main.js": "/spacetravelers/static/js/main.c6d345f0.chunk.js",
+    "main.js.map": "/spacetravelers/static/js/main.c6d345f0.chunk.js.map",
+    "runtime-main.js": "/spacetravelers/static/js/runtime-main.4ae74df8.js",
+    "runtime-main.js.map": "/spacetravelers/static/js/runtime-main.4ae74df8.js.map",
+    "static/js/2.83b9f025.chunk.js": "/spacetravelers/static/js/2.83b9f025.chunk.js",
+    "static/js/2.83b9f025.chunk.js.map": "/spacetravelers/static/js/2.83b9f025.chunk.js.map",
+    "index.html": "/spacetravelers/index.html",
+    "precache-manifest.2a2b1321b192bb071f8e1b19a3cae21a.js": "/spacetravelers/precache-manifest.2a2b1321b192bb071f8e1b19a3cae21a.js",
+    "service-worker.js": "/spacetravelers/service-worker.js",
+    "static/css/main.f5f9daef.chunk.css.map": "/spacetravelers/static/css/main.f5f9daef.chunk.css.map",
+    "static/js/2.83b9f025.chunk.js.LICENSE.txt": "/spacetravelers/static/js/2.83b9f025.chunk.js.LICENSE.txt",
+    "static/media/add.svg": "/spacetravelers/static/media/add.eb8fbeee.svg",
+    "static/media/arrow.svg": "/spacetravelers/static/media/arrow.dfc68ecb.svg",
+    "static/media/minus.svg": "/spacetravelers/static/media/minus.5f67fca3.svg",
+    "static/media/nothing.png": "/spacetravelers/static/media/nothing.6cfcdfa2.png",
+    "static/media/spacetrav.png": "/spacetravelers/static/media/spacetrav.20fe0f40.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ae74df8.js",
+    "static/js/2.83b9f025.chunk.js",
+    "static/css/main.f5f9daef.chunk.css",
+    "static/js/main.c6d345f0.chunk.js"
+  ]
+}
