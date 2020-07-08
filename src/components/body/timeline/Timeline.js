@@ -2,7 +2,7 @@ import React from 'react'
 import Month from './month/Month'
 import './Timeline.scss'
 
-const Timeline = ({Year,updateYearMinus,updateYearPlus,updateMonth,date,concaveSm,convexSm,minus,add,Months}) => {
+const Timeline = ({Year,updateYearMinus,updateYearPlus,updateMonth,concaveSm,convexSm,minus,add,Months}) => {
     return (
     <div className="Body-timeline">
         <div className="Body-year">
@@ -16,7 +16,7 @@ const Timeline = ({Year,updateYearMinus,updateYearPlus,updateMonth,date,concaveS
 
                 <div className='line'></div>
 
-                {Months.map(month => <li key={month}> <Month updateMonth={updateMonth} date={date} className="Body-day" month={month} /> </li> )}
+                {Months.map(month => <li key={month}> <Month updateMonth={updateMonth} className="Body-day" month={month} /> </li> )}
                 
             </ul>
             <div className="nextYearBtn"><button onClick={updateYearPlus} className='convexSm' onMouseDown={concaveSm} onMouseUp={convexSm}> <img className='plus' src={add}></img> </button></div>                    

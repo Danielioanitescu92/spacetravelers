@@ -13,7 +13,7 @@ const Scrolldrag = ({onMouseDown,onMouseUp,onMouseMove,Dayzzz,ScrollDays,updateD
                 
                 <div id="Body-details-parent" onScroll={ScrollDays}>
                     <ul id="Body-details-days" onMouseDown={onMouseDown} onMouseUp={onMouseUp}>
-                        {Dayzzz.map(dazz => <li key={dazz} className="Body-details-day"> <Day dazz={dazz} /> </li> )}
+                        {Dayzzz.map(dazz => <li key={dazz}> <Day className="Body-details-day" dazz={dazz} /> </li> )}
                     </ul>                  
                 </div>
 

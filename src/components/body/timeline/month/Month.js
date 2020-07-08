@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Month = ({month,updateMonth,date}) => {
+const Month = ({month,updateMonth}) => {
 
     return(
-        <h4 className="month" id={month} date={date} onClick={updateMonth}> {month} </h4>
+        <h4 id={month} onClick={updateMonth}> {month} </h4>
     )
 }
 
